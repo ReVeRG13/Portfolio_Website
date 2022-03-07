@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="UTF-8">
+    <title>TLE Attention</title>
+    <!--Reference Google Fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Aclonica'rel='stylesheet'> 
+     
+    <!--External CSS => 3rd Priority-->
+    <link rel="stylesheet" href="contact.css">
+
+    <!--Add Favicon Icon => https://www.favicon.cc/-->
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Menu -->
+    <hr>
+    <div style="width: 100%; text-align: center">     <!-- แต่ละหน้า -->
+        <ul>
+            <td>
+                    <li><font size = "7"><a href="Profile.html">Profile</a></li></font>
+            </td>
+            <td>
+                    <li><font size = "7"><a href="attention.html">Attentiont</a></li></font>
+            </td>
+            <td>
+                    <li><font size = "7"><a href="abilities.html">Abilities</a></li></font>
+            </td>
+            <td>
+                    <li><font size = "7"><a href="contact.html">Contact</a></li></font>
+            </td>
+        </ul>
+    </div> 
+    <hr>
+<div class="shade">       <!-- โดยมีการทำงานแบบพิมพ์ลงไปในช่อง โดยอยู่ใน blackboard แต่พิมพ์เสร์จก็ใช้ตัว JS มาตรวจสอบอีกครั้ง-->
+	<div class="blackboard">
+		<div class="form">
+			<p>
+				<label>Name: </label>
+				<input id="name" placeholder="name">
+			</p>
+			<p>
+				<label>Email: </label>
+				<input id="email" placeholder="email">
+			</p>
+			<p>
+				<label>Phone: </label>
+				<input id="phone" placeholder="phone">
+			</p>
+			<p>
+				<label>Subject: </label>
+				<input id="subject" placeholder="subject">
+			</p>
+			<p>
+				<label>Message: </label>
+                <input id="message" placeholder="message">
+			</p>
+			<p>
+                <label>Send: </label>
+				<input id="send" placeholder="send">
+			</p>
+            <p>
+                <button onclick="objForIn()">Show anw</button>
+            </p>
+        <p id="contact"></p>
+        <script src="contact.js"></script>
+		</div>
+	</div>
+</div>
+</body></html>
+
+
